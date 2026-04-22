@@ -26,7 +26,7 @@ module mult_32_TB;
         -> reset_done_trigger;
       end
     end
-  initial begin // Initialize Inputs
+  initial begin 
     clk = 0; reset = 1; start = 0; in_A = 16'b1000; in_B = 16'b10;
   end
 
@@ -40,7 +40,7 @@ module mult_32_TB;
     end
   end
 
-  initial begin // Reset the system, Start the image capture process
+  initial begin 
     #10 -> reset_trigger;
     @ (reset_done_trigger);
     @ (posedge clk);
