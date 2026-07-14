@@ -1,0 +1,8 @@
+
+COMM_OBJS+= cores/test/Divisor/control.v
+COMM_OBJS+= cores/test/Divisor/count.v
+COMM_OBJS+= cores/test/Divisor/divisor.v
+COMM_OBJS+= cores/test/Divisor/num_divid.v
+COMM_OBJS+= cores/test/Divisor/num_divisor.v
+COMM_OBJS+= cores/test/Divisor/resp.v
+COMM_OBJS+= cores/test/Divisor/sumadorC2.v
